@@ -1,0 +1,62 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+.warp {
+  min-width: 350px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.warp .title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.warp .search {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  line-height: 36px;
+  height: 36px;
+  margin-bottom: 50px;
+}
+.warp .search > input, .warp .search > input:focus, .warp .search > input:focus-visible {
+  border: 0;
+  outline: unset;
+  border-bottom: 1px solid #333;
+  font-size: 24px;
+  line-height: 36px;
+  height: 36px;
+  margin-left: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.info-box {
+  font-size: 24px;
+}
+.qq-info {
+  display: flex;
+  align-items: center;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #eaeaea;
+}
+.qq-info .logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.qq-info .name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.qq-info .name > span:last-child {
+  color: #666;
+}
